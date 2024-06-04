@@ -33,6 +33,9 @@ function clearGrid() {
   }
 }
 
+let clearCanvas = document.querySelector("#clear");
+clearCanvas.addEventListener("click", resetGrid);
+
 function resetGrid() {
   let squares = container.querySelectorAll("#square");
   for (let i = 0; i < squares.length; i++) {

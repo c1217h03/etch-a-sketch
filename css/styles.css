@@ -27,7 +27,7 @@ html {
     background-color: rgb(255, 203, 234);
 }
 
-#start {
+.btn {
    display:block;
    margin: auto;
    margin-top: 20px;
@@ -40,4 +40,17 @@ html {
 #page {
     display: flex;
     flex-direction: column;
+}
+
+#title {
+    font-size: 30px;
+    color: "black";
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    gap: auto;
 }
