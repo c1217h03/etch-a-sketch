@@ -7,3 +7,8 @@ for (let i = 0; i < 16; i++) {
     container.appendChild(square);
   }
 }
+
+let square = document.querySelectorAll("#square");
+container.addEventListener("mouseover", (event) => {
+  event.target.style.backgroundColor = "orange";
+});
